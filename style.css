@@ -1,0 +1,130 @@
+body {
+  background-color: rgba(2, 118, 87, 0.964);
+}
+
+.conatiner {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.conatiner .top-head {
+  margin-left: 5%;
+  padding: 2% 2% 0%;
+  display: flex;
+  margin-bottom: 0;
+}
+
+.conatiner .top-head h2 {
+  font-size: 30px;
+  font-weight: 650;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.conatiner .top-head img {
+  margin-left: 20%;
+  margin-top: 10%;
+  width: 10%;
+  height: 4%;
+}
+
+.conatiner .top-down {
+  margin-top: -11%;
+  margin-left: 7%;
+}
+
+.conatiner .top-down p {
+  font-size: 17px;
+  opacity: 0.8;
+}
+
+.conatiner .input-section {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.conatiner .input-section .link-input {
+  padding: 4% 17% 4% 3%;
+  font-size: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.512);
+  outline: none;
+  border-radius: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.conatiner .generate-btn {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.conatiner .generate-btn button {
+  width: 80%;
+  padding: 2% 0%;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  background-color: rgba(80, 72, 72, 0.992);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: 550;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.conatiner .generate-btn button:hover {
+  background-color: red;
+}
+
+.conatiner .generate-btn button:active {
+  background-color: red;
+}
+.conatiner #image-container {
+  margin-top: 10%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 25em) {
+  * {
+    width: inherit;
+  }
+
+  .conatiner {
+    left: 15%;
+  }
+
+  .conatiner .top-head h2 {
+    font-size: 20px;
+  }
+
+  .conatiner .top-head img {
+    margin-top: 6%;
+  }
+
+  .conatiner .top-down {
+    margin-top: -9%;
+  }
+
+  .conatiner .top-down p {
+    font-size: 13px;
+  }
+
+  .conatiner .input-section {
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .conatiner .input-section .link-input {
+    padding: 2% 12% 2% 3%;
+    font-size: 15px;
+  }
+
+  .conatiner .generate-btn button {
+    width: 70%;
+    padding: 2% 0%;
+    font-size: 15px;
+  }
+}
